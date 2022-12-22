@@ -5,14 +5,14 @@ import os
 
 
 class Config(object):
-    API_ID = int(os.getenv("API_ID", "12124605"))
-    API_HASH = os.getenv("API_HASH", "5cf3577d85fd02286535ec2296934287")
-    BOT_TOKEN = os.getenv("BOT_TOKEN", "5660564414:AAE2Hem9t5uouIXHlMMV6Rq-D8A8L1k5ku8")
-    BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "mdiskcynitebot")
-    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "String")
-    CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001558716347")) 
-    BOT_USERNAME = os.getenv("BOT_USERNAME", "cynitemdiskbot")
-    BOT_OWNER = int(os.getenv("BOT_OWNER", "1883570185"))
+    API_ID = int(os.getenv("API_ID", "10577794"))
+    API_HASH = os.getenv("API_HASH", "ad8beb1468bcdf56010ad47f15cf0505")
+    BOT_TOKEN = os.getenv("BOT_TOKEN", "5800006858:AAEggI54oKLABTn5BIPK1tmW4YmpzfIufuw")
+    BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "midisksearchbot")
+    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "1BVtsOGgBuz6tpKbU4RbMlLLjmo6KP6guQ9E1Ea5L_V444_XXSNdhmkfdzZnRgwvgfTSo9Evz62PXbBKDH_dIuMX-QItPutG66GqQnw1JSHgazWstr18ssVJxL8ERiIwo2W8M-xUddFZQFePTpmOizD5nX4h0eXAW9ZVEAQPtY4qxuRtCYFIzIRby5bWdm17e_YadOVDqNZngK1v65_7vbJdsNlTE0EXA9a0Hjk_RzcByqUMNqByspdH9F5pwi19VHtWHBwGEYMOytVLqJMN3sxs1Mrv2TG5qkYqzJtfPb2-5lJLQ6Nhlu2y7ammaHHyjMT4N5sGTG6FeW8JBaVhs8lOaKUjDHBk=")
+    CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001851577245")) 
+    BOT_USERNAME = os.getenv("BOT_USERNAME", "@Midisksearchbot")
+    BOT_OWNER = int(os.getenv("BOT_OWNER", "1745812059"))
 #    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "cyniteSupport")
     BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "cynitebackup")
 #    GROUP_USERNAME = os.getenv("GROUP_USERNAME")
@@ -23,15 +23,15 @@ I ᴀᴍ Mᴏᴠɪᴇ Sᴇᴀʀᴄʜ Rᴏʙᴏᴛ 🔍.
 I Wɪʟʟ Pʀᴏᴠɪᴅᴇ Eᴠᴇʀʏ Mᴏᴠɪᴇ Iɴ Mᴅɪsᴋ Lɪɴᴋ 🔗
 
 Jᴜsᴛ Tʏᴘᴇ ᴀ Mᴏᴠɪᴇ Nᴀᴍᴇ 🎬**""" ) 
-    START_PHOTO = os.getenv("START_PHOTO", "https://telegra.ph/file/7d357b72c29a6aa21fb78.jpg")
+    START_PHOTO = os.getenv("START_PHOTO", "https://telegra.ph/file/630766502765dbf6d14d4.jpg")
     HOME_TEXT = os.getenv("HOME_TEXT", """ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ➕
 
 ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴛʜᴇʀᴇ ʏᴏᴜʀ ʟɪɴᴋꜱ.
 
 ꜰᴏʀ ᴍᴏʀᴇ ɪɴꜰᴏ ᴄʟɪᴄᴋ ᴏɴ ʜᴇʟᴘ ✅""" )
-    UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", "-1001249072794")
-    DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://postbot:postbot@cluster0.ouwne8q.mongodb.net/?retryWrites=true&w=majority")
-    LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", "-1001796458234"))
+    UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", "-1001878239473")
+    DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://Sanket900:Sanket900@cluster0.3j7gpmg.mongodb.net/?retryWrites=true&w=majority")
+    LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", "-1001322435234"))
     RESULTS_COUNT = int(os.getenv("RESULTS_COUNT", 20))
     BROADCAST_AS_COPY = os.getenv("BROADCAST_AS_COPY", "True")
     UPDATES_CHANNEL_USERNAME = os.getenv("UPDATES_CHANNEL_USERNAME", "cynitebackup")
